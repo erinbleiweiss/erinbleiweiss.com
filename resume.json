@@ -7,7 +7,7 @@
     "email": "erinbleiweiss@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "My name is Erin, and I'm a software developer with a creative prowess, a knack for problem-solving, and an eye for design. I ___ and enjoy a challenge, whether that's architecting new web services or trying to solve a difficult anagram in pub trivia. When I'm not writing software, I'm probably messing around with hardware. I love building and collecting mechanical keyboards, experimenting with IOT and home automation, and finding excuses to model and 3D print gadgets for around the house. Ask me about what I'm typing on, my dog Mayzie, or the current state of Longhorn football.",
+    "summary": "My name is Erin, and I'm a software developer with a creative prowess, a knack for problem-solving, and an eye for design. I love working on cool things with cool people, and I always enjoy a challenge, whether that's architecting new web services or trying to solve a difficult anagram in pub trivia. When I'm not writing software, I'm probably messing around with hardware. I spend my time building and collecting mechanical keyboards, experimenting with IOT and home automation, and finding excuses to model and 3D print gadgets for around the house. Ask me about [what I'm typing on](./static/keyboard.jpg), my dog [Mayzie](./static/mayzie.jpg), or the current state of Longhorn football.",
     "location": {
       "countryCode": "US",
       "address": "Austin, TX"
