@@ -1,0 +1,29 @@
+{{#if resume.work.length}}
+<div class="work-container">
+  {{> title value="Experience"}}
+
+  {{#each resume.work}}
+  <section class="item">
+    {{> section-header name=this.company }}
+
+    {{#if position}}
+      <h4>{{position}}</h4>
+    {{/if}}
+
+    {{#if summary}}
+      <div class="summary">
+        {{#markdown}}{{summary}}{{/markdown}}
+      </div>
+    {{/if}}
+
+    {{#if highlights.length}}
+      <ul>
+        {{#each highlights}}
+        <li>{{.}}</li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </section>
+  {{/each}}
+</div>
+{{/if}}

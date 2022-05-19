@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "g": "^2.0.1",
+    "jsonresume-theme-erin": "file:jsonresume-theme-erin",
+    "resume-cli": "^3.0.7"
+  }
+}

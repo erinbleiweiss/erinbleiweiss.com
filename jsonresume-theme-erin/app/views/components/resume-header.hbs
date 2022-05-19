@@ -1,0 +1,25 @@
+{{#resume.basics}}
+  <div class="row header-row">
+    <div class="col-xs-12">
+      <div id="photo-header" class="text-center">
+        <div id="photo">
+          <img src="{{photo}}" alt="avatar">
+        </div>
+        <div id="text-header" {{^photo}}style="margin-top: 90px;"{{/photo}}>
+          <h1>{{name}}</h1>
+          <div class="contact">
+            {{#if profiles}}
+              {{#each profiles}}
+                <a href="{{this.url}}"><span class="{{concat "fab fa-" (lowercase network)}}"></span></a>
+              {{/each}}
+            {{/if}}
+            <a href="./uploads/ErinBleiweissResume2022.pdf" target="_blank"><span class="fas fa-file-alt fa-fw"></span></a>
+            {{#email}}
+              <a href="mailto:{{email}}" target="_blank"><span class="fas fa-envelope fa-fw"></span></a>
+            {{/email}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{/resume.basics}}

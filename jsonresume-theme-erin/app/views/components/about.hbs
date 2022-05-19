@@ -1,0 +1,30 @@
+{{#resume.basics}}
+<div class="about-container">
+  {{> title value="About"}}
+
+  <table class="about-table">
+  {{#if location}}
+    {{#location}}
+    {{> info-tag text=(formatAddress address city region postalCode countryCode) icon="fa fa-map-marker-alt"}}
+    {{/location}}
+  {{/if}}
+
+  {{#if email}}
+    {{> info-tag text=this.email icon="fa fa-envelope"}}
+  {{/if}}
+
+  {{#if phone}}
+    {{> info-tag text=this.phone icon="fa fa-mobile-alt"}}
+  {{/if}}
+
+  {{#if website}}
+    {{> info-tag text=this.website icon="fa fa-desktop" url=this.website}}
+  {{/if}}
+
+  {{#if profiles}}
+    {{#each profiles}}
+        {{> social}}
+    {{/each}}
+  {{/if}}
+  </table>
+{{/resume.basics}}

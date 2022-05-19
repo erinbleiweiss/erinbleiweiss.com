@@ -1,0 +1,140 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Erin Bleiweiss",
+    "label": "Software Engineer II at Rapid7",
+    "image": "",
+    "email": "erinbleiweiss@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "My name is Erin, and I'm a software developer with a creative prowess, a knack for problem-solving, and an eye for design. I ___ and enjoy a challenge, whether that's architecting new web services or trying to solve a difficult anagram in pub trivia. When I'm not writing software, I'm probably messing around with hardware. I love building and collecting mechanical keyboards, experimenting with IOT and home automation, and finding excuses to model and 3D print gadgets for around the house. Ask me about what I'm typing on, my dog Mayzie, or the current state of Longhorn football.",
+    "location": {
+      "countryCode": "US",
+      "address": "Austin, TX"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "erinbleiweiss",
+        "url": "https://github.com/erinbleiweiss/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "erinbleiweiss",
+        "url": "https://www.linkedin.com/in/erinbleiweiss/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Rapid7",
+      "position": "Software Engineer II",
+      "startDate": "2019-02-28",
+      "endDate": "",
+      "highlights": [],
+      "summary": "At Rapid7, I'm a member of the offensive security engineering team, working on projects that benefit the security community. I helped to prototype and launch [AttackerKB](https://attackerkb.com/), a community-driven vulnerability and threat intelligence platform. I've also made several [contributions to Metasploit Framework](https://github.com/rapid7/metasploit-framework/pulls?q=is%3Apr+author%3Aebleiweiss-r7), primarily adding support for an enhanced data service and REST API. I'm a [regular contributor](https://www.rapid7.com/blog/author/erin/) to the Rapid7 blog, authoring weekly wrap-up posts that highlight new features in Metasploit Framework. Finally, I am responsible for cloud infrastructure, deployment, and web development for the annual [Metasploit community CTF](https://www.rapid7.com/blog/post/2021/12/06/congrats-to-the-winners-of-the-2021-metasploit-community-ctf/), a [security competition](https://ctfd.io/whats-a-ctf/) which typically sees over 1,000 active users.",
+
+      "url": "https://www.linkedin.com/company/rapid7/",
+      "location": "Austin, Texas "
+    },
+    {
+      "company": "Rapid7",
+      "position": "Software Engineer I",
+      "startDate": "2018-07-31",
+      "endDate": "2019-02-28",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/rapid7/",
+      "location": "Austin, Texas"
+    },
+    {
+      "company": "Jackrabbit Mobile",
+      "position": "iOS and Web Developer",
+      "startDate": "2016-09-30",
+      "endDate": "2018-06-30",
+      "highlights": [],
+      "summary": "As both an iOS and full-stack web developer at [Jackrabbit Mobile](https://www.jackrabbitmobile.com/), I had a unique opportunity to wear many hats while balancing as many as four different client-facing products at any given time. I worked closely on small, agile, engineering teams in order to bring ideas from concept to reality for everything from small startups to large public universities. I collaborated on frontend web projects in Angular, APIs and backend services in Python, AWS cloud infrastructure, and iOS apps built using Swift. I worked on too many projects to name individually, but my favorite by far was the iOS app for the [Litter-Robot](https://www.litter-robot.com/).",
+
+
+      "url": "https://www.linkedin.com/company/jackrabbit-mobile/",
+      "location": "Austin, Texas"
+    },
+    {
+      "company": "Ihiji",
+      "position": "Web Application Developer",
+      "startDate": "2015-05-31",
+      "endDate": "2016-05-31",
+      "highlights": [],
+      "summary": "At Ihiji, [a remote network management company](https://www.control4.com/press_releases/2018/01/03/control4-acquires-ihiji-to-deliver-industrys-most-robust-management-service-platform-for-the-connected-home/), I had the opportunity to work on web development for the user-facing monitoring and management portal (Ihiji Invision), as well as adding support for third-party hardware integrations. I wrote new SNMP profiles for IOT devices, added new metrics and features to the Ihiji Invision dashboard, overhauled the customer email notification system to utilize a new API, and worked with the marketing team to make UI enhancements to the main website.",
+      "url": "https://www.linkedin.com/company/ihiji/",
+      "location": "Austin, Texas"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "The University of Texas at Austin",
+      "area": "Plan II Honors",
+      "studyType": "Bachelor of Arts (B.A.)",
+      "startDate": "2012-08-01",
+      "endDate": "2016-05-31",
+      "score": "",
+      "courses": [],
+      "summary": "I have a bachelor's degree from the [Plan II Honors Program](https://liberalarts.utexas.edu/plan2/about/index.php), an interdisciplinary program offered by UT's College of Liberal Arts. For me, this meant that I had the opportunity to take classes in a wide variety of subjects, while specializing in areas that interested me the most. I completed a minor in computer science through UT's [Elements of Computing Program](https://www.cs.utexas.edu/undergraduate-program/academics/elements-computing), as well as a a certificate from [Bridging Disciplines Program in Digital Arts and Media](https://ugs.utexas.edu/bdp/programs/dam). My liberal arts focus means I am well-versed in the humanities, although my passions lie with science and technology. At heart, I am a programmer who is pro-grammar."
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": ["Python", "Go", "Ruby", "SQL", "Swift", "Java", "PHP", "HTML", "CSS", "JS"]
+    },
+    {
+      "name": "Frontend Web",
+      "level": "",
+      "keywords": ["npm", "node", "yarn", "SASS", "Webpack", "jQuery", "Bootstrap", "Angular", "Python-Flask"]
+    },
+    {
+      "name": "Backend/Deployment",
+      "level": "",
+      "keywords": ["AWS", "Terraform", "Heroku", "Firebase", "Jenkins"]
+    }
+  ],
+  "interests": [],
+  "projects": [
+    {
+      "name": "Moot: The Game",
+      "startDate": "2015-08-31",
+      "summary": "Puzzle game developed for iOS in fulfillment of senior thesis project.  Interface created in Xcode using Swift 2.2.  Backend is a Python Flask application running on a Linux server.  Currently available in the iTunes App Store.\nhttps://github.com/erinbleiweiss/Moot",
+      "url": "https://itunes.apple.com/us/app/moot-the-game/id1102164301",
+      "endDate": "2016-05-31"
+    },
+    {
+      "name": "Cyber Knight Saga",
+      "startDate": "2015-08-31",
+      "summary": "A 2D Flash game designed using Stencyl.  Worked as the lead developer on a team of three while taking the game from initial wireframes to distribution. Added custom classes and objects to the Stencyl library, as well as created original assets for use in game.  Completed several iterations of user testing throughout the development cycle.",
+      "url": "http://gamejolt.com/games/cyber-knight-saga/120985",
+      "endDate": "2015-12-31"
+    },
+    {
+      "name": "Reddit Signatures",
+      "startDate": "2015-12-31",
+      "summary": "A Chrome Extension for Reddit that allows users to automatically insert a custom signature at the end of each of their posts, on a subreddit-by-subreddit basis using a visual editor and markdown previews.",
+      "url": "https://chrome.google.com/webstore/detail/reddit-signatures/jlcchkkjagjangemnkkiigccbkjcmlla?hl=en",
+      "endDate": "2015-12-31"
+    },
+    {
+      "name": "choreBoard",
+      "startDate": "2015-01-31",
+      "summary": "An iOS app designed to help roommates keep track of recurring chores, groceries, and shared utilities.  Worked as one of two developers on a team of four while designing, developing, and marketing the app over a five month period.  Frontend written in Swift 1.2.  Backend built on Parse framework.",
+      "url": "https://github.com/erinbleiweiss/choreBoard",
+      "endDate": "2015-05-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

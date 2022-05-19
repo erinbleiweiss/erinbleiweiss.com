@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erin Bleiweiss</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+  <style type="text/css">
+      /* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v24/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQbMZhKg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v24/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMZhKg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'chunkfive';
+  src: url("../../fonts/chunkfive/chunkfive-webfont.woff2") format("woff2"), url("../../fonts/chunkfive/chunkfive-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'scala';
+  src: url("../../fonts/scala/scala-bold-webfont.woff2") format("woff2"), url("../../fonts/scala/scala-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'scala';
+  src: url("../../fonts/scala/scala-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/scala/scala-bolditalic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'scala';
+  src: url("../../fonts/scala/scala-italic-webfont.woff2") format("woff2"), url("../../fonts/scala/scala-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'scala';
+  src: url("../../fonts/scala/scala-webfont.woff2") format("woff2"), url("../../fonts/scala/scala-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'scala_sans';
+  src: url("../../fonts/scala/scalasans-bold-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasans-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'scala_sans';
+  src: url("../../fonts/scala/scalasans-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasans-bolditalic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'scala_sans';
+  src: url("../../fonts/scala/scalasans-italic-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasans-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'scala_sans';
+  src: url("../../fonts/scala/scalasans-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasans-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'scala_sans';
+  src: url("../../fonts/scala/scalasansblack-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasansblack-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'scala_sans_condensed';
+  src: url("../../fonts/scala/scalasanscond-bold-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasanscond-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'scala_sans_condensed';
+  src: url("../../fonts/scala/scalasanscond-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasanscond-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #303030;
+  background: #D1D1D1; }
+  body a {
+    color: #6C8941; }
+    body a:hover {
+      color: #6C8941;
+      text-decoration: underline; }
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; }
+
+h1 {
+  font-family: 'Patua One', cursive;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 5px; }
+
+h2 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: .5px; }
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 17.5px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 13.75px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12.5px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 13.75px; }
+
+blockquote {
+  font-size: 13.75px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    column-count: 2;
+    column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+@page {
+  size: A4; }
+
+*[class$="-container"] {
+  padding-top: 30px; }
+
+.keyline {
+  width: 60px;
+  margin: 8px 0 10px;
+  border-top: 2px solid #6C8941; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #6C8941; }
+
+.summary {
+  margin: 10px 0 5px; }
+
+p.summary {
+  margin: 5px 0 0; }
+
+/* Layouts */
+blockquote {
+  font-size: 1em; }
+
+#resume.container {
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff; }
+
+.header-row {
+  background-color: #303030;
+  border-bottom: 12px solid #6C8941; }
+
+.header-row .contact {
+  word-spacing: 20px;
+  font-size: 1.8em;
+  color: #fff; }
+
+.header-row .contact a {
+  color: #fff; }
+
+#photo-header {
+  margin-top: -75px; }
+
+#photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #D1D1D1;
+  display: inline-block; }
+
+#photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; }
+
+#text-header h1 {
+  padding: 0;
+  font-size: 4.5em;
+  margin-top: -16px;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+  font-family: 'Patua One', cursive;
+  text-transform: capitalize !important;
+  font-weight: 800;
+  line-height: 1.5em; }
+  #text-header h1 span {
+    color: #D1D1D1;
+    opacity: 0.7; }
+  #text-header h1 sup {
+    opacity: 0.5; }
+
+#text-header:after {
+  width: 100%;
+  margin-top: 15px;
+  content: '';
+  display: block; }
+
+#resume .resume-content {
+  padding: 20px 30px 60px; }
+  @media (max-width: 768px) {
+    #resume .resume-content {
+      display: flex;
+      flex-direction: column-reverse; } }
+
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #6C8941;
+  padding: 36px 22px 30px 34px;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  word-wrap: break-word; }
+
+.right-column {
+  overflow: hidden; }
+
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
+
+@media print {
+  body {
+    margin: 0; }
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none; }
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 0 34px; }
+  .container {
+    page-break-inside: avoid; }
+  .work-container .item {
+    page-break-inside: avoid; }
+  .fa-external-link {
+    display: none; } }
+
+/* Components */
+.about-table {
+  border-spacing: 10px 4px;
+  border-collapse: separate;
+  margin: 10px -10px -10px; }
+  .about-table tr {
+    height: 10px; }
+    .about-table tr td:first-child {
+      text-align: center; }
+
+.info-tag {
+  margin-bottom: 5px; }
+  .info-tag .fa {
+    font-size: 17.5px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle; }
+    .info-tag .fa.fa-map-marker-alt {
+      font-size: 20px; }
+    .info-tag .fa.fa-mobile-alt {
+      font-size: 22.5px; }
+    .info-tag .fa.fa-envelope {
+      font-size: 15px; }
+    .info-tag .fa.fa-desktop {
+      font-size: 13.75px; }
+    .info-tag .fa.fa-external-link {
+      width: auto;
+      font-size: inherit;
+      vertical-align: text-top; }
+  .info-tag .fab.fa-github {
+    font-size: 17.5px; }
+  .info-tag .fab.fa-linkedin {
+    font-size: 17.5px; }
+  .info-tag .info-text {
+    font-size: 11.25px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 139px; }
+
+.references-container .fa {
+  font-size: 17.5px; }
+
+.education-container .location {
+  padding-bottom: 6px;
+  font-weight: 400; }
+
+.education-container .specialization {
+  text-transform: none;
+  font-style: italic; }
+
+  </style>
+  <style type="text/css" media="print">
+      
+  </style>
+</head>
+<body>
+  <div id="resume" class="container">
+      <div class="row header-row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <div id="photo">
+              <img src="https://s.gravatar.com/avatar/4e7a43aebd878692d82b5d206731fa6b?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Erin Bleiweiss</h1>
+              <div class="contact">
+                    <a href="https://github.com/erinbleiweiss/"><span class="fab fa-github"></span></a>
+                    <a href="https://www.linkedin.com/in/erinbleiweiss/"><span class="fab fa-linkedin"></span></a>
+                <a href="./uploads/ErinBleiweissResume2022.pdf" target="_blank"><span class="fas fa-file-alt fa-fw"></span></a>
+                  <a href="mailto:" target="_blank"><span class="fas fa-envelope fa-fw"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="resume-content row">
+      <div class="left-column col-sm-3">
+        <div class="about-container">
+          <div class="title">
+            <h3>About</h3>
+            <div class="keyline"></div>
+          </div>
+        
+          <table class="about-table">
+            <tr class="info-tag">
+              <td>
+                <i class="fa fa-map-marker-alt"></i>
+              </td>
+              <td>
+                <h6 class="info-text">Austin, TX</h6>
+              </td>
+            </tr>
+        
+            <tr class="info-tag">
+              <td>
+                <i class="fa fa-envelope"></i>
+              </td>
+              <td>
+                <h6 class="info-text">erinbleiweiss@gmail.com</h6>
+              </td>
+            </tr>
+        
+        
+        
+                      <tr class="info-tag">
+                        <td>
+                          <i class="fab fa-github"></i>
+                        </td>
+                        <td>
+                          <h6 class="info-text">
+                            <a href="https://github.com/erinbleiweiss/" target="_blank">
+                              erinbleiweiss <i class="fa fa-external-link" aria-hidden="true"></i>
+                            </a>
+                          </h6>
+                        </td>
+                      </tr>
+                      <tr class="info-tag">
+                        <td>
+                          <i class="fab fa-linkedin"></i>
+                        </td>
+                        <td>
+                          <h6 class="info-text">
+                            <a href="https://www.linkedin.com/in/erinbleiweiss/" target="_blank">
+                              in/erinbleiweiss <i class="fa fa-external-link" aria-hidden="true"></i>
+                            </a>
+                          </h6>
+                        </td>
+                      </tr>
+          </table>
+        <div class="skills">
+          <section class="skills-child-container">
+              <div class="title">
+                <h3>Languages</h3>
+                <div class="keyline"></div>
+              </div>
+              <ul class="minimal">
+                <li>
+                  <h6>Python</h6>
+                </li>
+                <li>
+                  <h6>Go</h6>
+                </li>
+                <li>
+                  <h6>Ruby</h6>
+                </li>
+                <li>
+                  <h6>SQL</h6>
+                </li>
+                <li>
+                  <h6>Swift</h6>
+                </li>
+                <li>
+                  <h6>Java</h6>
+                </li>
+                <li>
+                  <h6>PHP</h6>
+                </li>
+                <li>
+                  <h6>HTML</h6>
+                </li>
+                <li>
+                  <h6>CSS</h6>
+                </li>
+                <li>
+                  <h6>JS</h6>
+                </li>
+              </ul>
+          </section>
+          <section class="skills-child-container">
+              <div class="title">
+                <h3>Frontend Web</h3>
+                <div class="keyline"></div>
+              </div>
+              <ul class="minimal">
+                <li>
+                  <h6>npm</h6>
+                </li>
+                <li>
+                  <h6>node</h6>
+                </li>
+                <li>
+                  <h6>yarn</h6>
+                </li>
+                <li>
+                  <h6>SASS</h6>
+                </li>
+                <li>
+                  <h6>Webpack</h6>
+                </li>
+                <li>
+                  <h6>jQuery</h6>
+                </li>
+                <li>
+                  <h6>Bootstrap</h6>
+                </li>
+                <li>
+                  <h6>Angular</h6>
+                </li>
+                <li>
+                  <h6>Python-Flask</h6>
+                </li>
+              </ul>
+          </section>
+          <section class="skills-child-container">
+              <div class="title">
+                <h3>Backend/Deployment</h3>
+                <div class="keyline"></div>
+              </div>
+              <ul class="minimal">
+                <li>
+                  <h6>AWS</h6>
+                </li>
+                <li>
+                  <h6>Terraform</h6>
+                </li>
+                <li>
+                  <h6>Heroku</h6>
+                </li>
+                <li>
+                  <h6>Firebase</h6>
+                </li>
+                <li>
+                  <h6>Jenkins</h6>
+                </li>
+              </ul>
+          </section>
+        </div>
+        </div>
+      </div>
+      <div class="right-column col-sm-9">
+        <div class="summary-container">
+          <div class="title">
+            <h2>Hello!</h2>
+            <div class="keyline"></div>
+          </div>
+          <p class="summary">
+            My name is Erin, and I&#x27;m a software developer with a creative prowess, a knack for problem-solving, and an eye for design. I ___ and enjoy a challenge, whether that&#x27;s architecting new web services or trying to solve a difficult anagram in pub trivia. When I&#x27;m not writing software, I&#x27;m probably messing around with hardware. I love building and collecting mechanical keyboards, experimenting with IOT and home automation, and finding excuses to model and 3D print gadgets for around the house. Ask me about what I&#x27;m typing on, my dog Mayzie, or the current state of Longhorn football.
+          </p>
+        </div>
+        <div class="work-container">
+          <div class="title">
+            <h3>Experience</h3>
+            <div class="keyline"></div>
+          </div>
+        
+          <section class="item">
+            <div class="section-header clearfix">
+              <h3 class="bold pull-left">
+                  Rapid7
+              </h3>
+              <h5 class="italic pull-right">
+                  <span class="startDate">2019</span>
+                  <span class="endDate"> - Present</span>
+              </h5>
+            </div>
+        
+              <h4>Software Engineer II</h4>
+        
+              <div class="summary">
+                <p>At Rapid7, I&#x27;m a member of the offensive security engineering team, working on projects that benefit the security community. I helped to prototype and launch <a href="https://attackerkb.com/" rel="noopener noreferrer" target="_blank">AttackerKB</a>, a community-driven vulnerability and threat intelligence platform. I&#x27;ve also made several <a href="https://github.com/rapid7/metasploit-framework/pulls?q&#x3D;is%3Apr+author%3Aebleiweiss-r7" rel="noopener noreferrer" target="_blank">contributions to Metasploit Framework</a>, primarily adding support for an enhanced data service and REST API. I&#x27;m a <a href="https://www.rapid7.com/blog/author/erin/" rel="noopener noreferrer" target="_blank">regular contributor</a> to the Rapid7 blog, authoring weekly wrap-up posts that highlight new features in Metasploit Framework. Finally, I am responsible for cloud infrastructure, deployment, and web development for the annual <a href="https://www.rapid7.com/blog/post/2021/12/06/congrats-to-the-winners-of-the-2021-metasploit-community-ctf/" rel="noopener noreferrer" target="_blank">Metasploit community CTF</a>, a <a href="https://ctfd.io/whats-a-ctf/" rel="noopener noreferrer" target="_blank">security competition</a> which typically sees over 1,000 active users.</p>
+              </div>
+        
+          </section>
+          <section class="item">
+            <div class="section-header clearfix">
+              <h3 class="bold pull-left">
+                  Rapid7
+              </h3>
+              <h5 class="italic pull-right">
+                  <span class="startDate">2018</span>
+                  <span class="endDate"> - 2019</span>
+              </h5>
+            </div>
+        
+              <h4>Software Engineer I</h4>
+        
+        
+          </section>
+          <section class="item">
+            <div class="section-header clearfix">
+              <h3 class="bold pull-left">
+                  Jackrabbit Mobile
+              </h3>
+              <h5 class="italic pull-right">
+                  <span class="startDate">2016</span>
+                  <span class="endDate"> - 2018</span>
+              </h5>
+            </div>
+        
+              <h4>iOS and Web Developer</h4>
+        
+              <div class="summary">
+                <p>As both an iOS and full-stack web developer at <a href="https://www.jackrabbitmobile.com/" rel="noopener noreferrer" target="_blank">Jackrabbit Mobile</a>, I had a unique opportunity to wear many hats while balancing as many as four different client-facing products at any given time. I worked closely on small, agile, engineering teams in order to bring ideas from concept to reality for everything from small startups to large public universities. I collaborated on frontend web projects in Angular, APIs and backend services in Python, AWS cloud infrastructure, and iOS apps built using Swift. I worked on too many projects to name individually, but my favorite by far was the iOS app for the <a href="https://www.litter-robot.com/" rel="noopener noreferrer" target="_blank">Litter-Robot</a>.</p>
+              </div>
+        
+          </section>
+          <section class="item">
+            <div class="section-header clearfix">
+              <h3 class="bold pull-left">
+                  Ihiji
+              </h3>
+              <h5 class="italic pull-right">
+                  <span class="startDate">2015</span>
+                  <span class="endDate"> - 2016</span>
+              </h5>
+            </div>
+        
+              <h4>Web Application Developer</h4>
+        
+              <div class="summary">
+                <p>At Ihiji, <a href="https://www.control4.com/press_releases/2018/01/03/control4-acquires-ihiji-to-deliver-industrys-most-robust-management-service-platform-for-the-connected-home/" rel="noopener noreferrer" target="_blank">a remote network management company</a>, I had the opportunity to work on web development for the user-facing monitoring and management portal (Ihiji Invision), as well as adding support for third-party hardware integrations. I wrote new SNMP profiles for IOT devices, added new metrics and features to the Ihiji Invision dashboard, overhauled the customer email notification system to utilize a new API, and worked with the marketing team to make UI enhancements to the main website.</p>
+              </div>
+        
+          </section>
+        </div>
+        <div class="education-container">
+          <div class="title">
+          <h3>Education</h3>
+          <div class="keyline"></div>
+        </div>
+         
+          <section class="item">
+            <div class="section-header clearfix">
+              <h3 class="bold pull-left">
+                  The University of Texas at Austin
+              </h3>
+              <h5 class="italic pull-right">
+                  <span class="startDate">2012</span>
+                  <span class="endDate"> - 2016</span>
+              </h5>
+            </div>
+        
+            <h4>Bachelor of Arts (B.A.) Plan II Honors</h4>
+        
+              <div class="summary">
+                <p>I have a bachelor&#x27;s degree from the <a href="https://liberalarts.utexas.edu/plan2/about/index.php" rel="noopener noreferrer" target="_blank">Plan II Honors Program</a>, an interdisciplinary program offered by UT&#x27;s College of Liberal Arts. For me, this meant that I had the opportunity to take classes in a wide variety of subjects, while specializing in areas that interested me the most. I completed a minor in computer science through UT&#x27;s <a href="https://www.cs.utexas.edu/undergraduate-program/academics/elements-computing" rel="noopener noreferrer" target="_blank">Elements of Computing Program</a>, as well as a a certificate from <a href="https://ugs.utexas.edu/bdp/programs/dam" rel="noopener noreferrer" target="_blank">Bridging Disciplines Program in Digital Arts and Media</a>. My liberal arts focus means I am well-versed in the humanities, although my passions lie with science and technology. At heart, I am a programmer who is pro-grammar.</p>
+              </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
