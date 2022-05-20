@@ -110,3 +110,12 @@ blockquote {
     margin-bottom: 0;
   }
 }
+
+.work-container {
+  .item.continuation {
+    margin-top: spacing(-4.5);
+  }
+  .summary {
+    margin-bottom: spacing(8);
+  }
+}

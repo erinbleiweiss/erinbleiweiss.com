@@ -3,7 +3,7 @@
   {{> title value="Experience"}}
 
   {{#each resume.work}}
-  <section class="item">
+  <section class="item {{#unless this.company}}continuation{{/unless}}">
     {{> section-header name=this.company }}
 
     {{#if position}}
