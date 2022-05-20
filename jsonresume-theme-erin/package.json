@@ -58,6 +58,7 @@
     "handlebars-wax": "^6.1.0",
     "jshint": "2.x",
     "moment": "^2.17.1",
+    "object-assign": "^4.1.1",
     "resume-cli": "^3.0.7",
     "showdown": "^2.1.0",
     "swag": "^0.7.0"

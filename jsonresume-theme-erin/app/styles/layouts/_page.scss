@@ -92,9 +92,6 @@ blockquote {
 }
 
 .left-column {
-  //float: left;
-  //width: $aside-width;
-  //margin-right: $aside-margin;
   word-wrap: break-word;
 }
 
@@ -117,5 +114,10 @@ blockquote {
   }
   .summary {
     margin-bottom: spacing(8);
+  }
+  .item:last-of-type {
+    .summary {
+      margin-bottom: spacing(4);
+    }
   }
 }

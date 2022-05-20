@@ -66,78 +66,6 @@
   src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
 }
 
-@font-face {
-  font-family: 'chunkfive';
-  src: url("../../fonts/chunkfive/chunkfive-webfont.woff2") format("woff2"), url("../../fonts/chunkfive/chunkfive-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'scala';
-  src: url("../../fonts/scala/scala-bold-webfont.woff2") format("woff2"), url("../../fonts/scala/scala-bold-webfont.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'scala';
-  src: url("../../fonts/scala/scala-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/scala/scala-bolditalic-webfont.woff") format("woff");
-  font-weight: bold;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'scala';
-  src: url("../../fonts/scala/scala-italic-webfont.woff2") format("woff2"), url("../../fonts/scala/scala-italic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'scala';
-  src: url("../../fonts/scala/scala-webfont.woff2") format("woff2"), url("../../fonts/scala/scala-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'scala_sans';
-  src: url("../../fonts/scala/scalasans-bold-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasans-bold-webfont.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'scala_sans';
-  src: url("../../fonts/scala/scalasans-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasans-bolditalic-webfont.woff") format("woff");
-  font-weight: bold;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'scala_sans';
-  src: url("../../fonts/scala/scalasans-italic-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasans-italic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'scala_sans';
-  src: url("../../fonts/scala/scalasans-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasans-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'scala_sans';
-  src: url("../../fonts/scala/scalasansblack-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasansblack-webfont.woff") format("woff");
-  font-weight: 900;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'scala_sans_condensed';
-  src: url("../../fonts/scala/scalasanscond-bold-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasanscond-bold-webfont.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'scala_sans_condensed';
-  src: url("../../fonts/scala/scalasanscond-webfont.woff2") format("woff2"), url("../../fonts/scala/scalasanscond-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -371,18 +299,30 @@ blockquote {
   .item:last-child {
     margin-bottom: 0; }
 
+.work-container .item.continuation {
+  margin-top: -22.5px; }
+
+.work-container .summary {
+  margin-bottom: 40px; }
+
+.work-container .item:last-of-type .summary {
+  margin-bottom: 20px; }
+
 @media print {
   body {
     margin: 0; }
-  .page {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 36px 0 30px;
-    box-shadow: none; }
-    .page .resume-header,
-    .page .resume-content {
-      padding: 0 22px 0 34px; }
+  a[href]:after {
+    content: none !important; }
+  .header-row {
+    border-bottom: 5px solid #6C8941; }
+    .header-row #photo {
+      display: none; }
+    .header-row #text-header h1 {
+      font-size: 3em; }
+    .header-row #text-header .contact {
+      display: none; }
+  .resume-content {
+    padding-top: 10px; }
   .container {
     page-break-inside: avoid; }
   .work-container .item {
@@ -394,7 +334,7 @@ blockquote {
 .about-table {
   border-spacing: 10px 4px;
   border-collapse: separate;
-  margin: 10px -10px -10px; }
+  margin: 10px -10px 0; }
   .about-table tr {
     height: 10px; }
     .about-table tr td:first-child {
@@ -459,7 +399,7 @@ blockquote {
               <div class="contact">
                     <a href="https://github.com/erinbleiweiss/"><span class="fab fa-github"></span></a>
                     <a href="https://www.linkedin.com/in/erinbleiweiss/"><span class="fab fa-linkedin"></span></a>
-                <a href="./uploads/ErinBleiweissResume2022.pdf" target="_blank"><span class="fas fa-file-alt fa-fw"></span></a>
+                <a href="./static/ErinBleiweissResume_2022.pdf" target="_blank"><span class="fas fa-file-alt fa-fw"></span></a>
                   <a href="mailto:" target="_blank"><span class="fas fa-envelope fa-fw"></span></a>
               </div>
             </div>
@@ -627,7 +567,7 @@ blockquote {
             <div class="keyline"></div>
           </div>
           <p class="summary">
-            My name is Erin, and I&#x27;m a software developer with a creative prowess, a knack for problem-solving, and an eye for design. I ___ and enjoy a challenge, whether that&#x27;s architecting new web services or trying to solve a difficult anagram in pub trivia. When I&#x27;m not writing software, I&#x27;m probably messing around with hardware. I love building and collecting mechanical keyboards, experimenting with IOT and home automation, and finding excuses to model and 3D print gadgets for around the house. Ask me about what I&#x27;m typing on, my dog Mayzie, or the current state of Longhorn football.
+            <p>My name is Erin, and I&#x27;m a software developer with a creative prowess, a knack for problem-solving, and an eye for design. I love working on cool things with cool people, and I always enjoy a challenge, whether that&#x27;s architecting new web services or trying to solve a difficult anagram in pub trivia. When I&#x27;m not writing software, I&#x27;m probably messing around with hardware. I spend my time building and collecting mechanical keyboards, experimenting with IOT and home automation, and finding excuses to model and 3D print gadgets for around the house. Ask me about <a href="./static/keyboard.jpg" rel="noopener noreferrer" target="_blank">what I&#x27;m typing on</a>, my dog <a href="./static/mayzie.jpg" rel="noopener noreferrer" target="_blank">Mayzie</a>, or the current state of Longhorn football.</p>
           </p>
         </div>
         <div class="work-container">
@@ -636,7 +576,7 @@ blockquote {
             <div class="keyline"></div>
           </div>
         
-          <section class="item">
+          <section class="item ">
             <div class="section-header clearfix">
               <h3 class="bold pull-left">
                   Rapid7
@@ -649,16 +589,10 @@ blockquote {
         
               <h4>Software Engineer II</h4>
         
-              <div class="summary">
-                <p>At Rapid7, I&#x27;m a member of the offensive security engineering team, working on projects that benefit the security community. I helped to prototype and launch <a href="https://attackerkb.com/" rel="noopener noreferrer" target="_blank">AttackerKB</a>, a community-driven vulnerability and threat intelligence platform. I&#x27;ve also made several <a href="https://github.com/rapid7/metasploit-framework/pulls?q&#x3D;is%3Apr+author%3Aebleiweiss-r7" rel="noopener noreferrer" target="_blank">contributions to Metasploit Framework</a>, primarily adding support for an enhanced data service and REST API. I&#x27;m a <a href="https://www.rapid7.com/blog/author/erin/" rel="noopener noreferrer" target="_blank">regular contributor</a> to the Rapid7 blog, authoring weekly wrap-up posts that highlight new features in Metasploit Framework. Finally, I am responsible for cloud infrastructure, deployment, and web development for the annual <a href="https://www.rapid7.com/blog/post/2021/12/06/congrats-to-the-winners-of-the-2021-metasploit-community-ctf/" rel="noopener noreferrer" target="_blank">Metasploit community CTF</a>, a <a href="https://ctfd.io/whats-a-ctf/" rel="noopener noreferrer" target="_blank">security competition</a> which typically sees over 1,000 active users.</p>
-              </div>
         
           </section>
-          <section class="item">
+          <section class="item continuation">
             <div class="section-header clearfix">
-              <h3 class="bold pull-left">
-                  Rapid7
-              </h3>
               <h5 class="italic pull-right">
                   <span class="startDate">2018</span>
                   <span class="endDate"> - 2019</span>
@@ -667,9 +601,12 @@ blockquote {
         
               <h4>Software Engineer I</h4>
         
+              <div class="summary">
+                <p>At <a href="https://www.rapid7.com/" rel="noopener noreferrer" target="_blank">Rapid7</a>, I&#x27;m a member of the offensive security engineering team, working on projects that benefit the security community. I helped to prototype and launch <a href="https://attackerkb.com/topics/" rel="noopener noreferrer" target="_blank">AttackerKB</a>, a community-driven vulnerability and threat intelligence platform. I&#x27;ve also made several <a href="https://github.com/rapid7/metasploit-framework/pulls?q&#x3D;is%3Apr+author%3Aebleiweiss-r7" rel="noopener noreferrer" target="_blank">contributions to Metasploit Framework</a>, primarily adding support for an enhanced data service and REST API. I&#x27;m a <a href="https://www.rapid7.com/blog/author/erin/" rel="noopener noreferrer" target="_blank">regular contributor</a> to the Rapid7 blog, authoring weekly wrap-up posts that highlight new features in Metasploit Framework. Finally, I am responsible for cloud infrastructure, deployment, and web development for the annual <a href="https://www.rapid7.com/blog/post/2021/12/06/congrats-to-the-winners-of-the-2021-metasploit-community-ctf/" rel="noopener noreferrer" target="_blank">Metasploit community CTF</a>, a <a href="https://ctfd.io/whats-a-ctf/" rel="noopener noreferrer" target="_blank">security competition</a> which typically sees over 1,000 active users.</p>
+              </div>
         
           </section>
-          <section class="item">
+          <section class="item ">
             <div class="section-header clearfix">
               <h3 class="bold pull-left">
                   Jackrabbit Mobile
@@ -687,7 +624,7 @@ blockquote {
               </div>
         
           </section>
-          <section class="item">
+          <section class="item ">
             <div class="section-header clearfix">
               <h3 class="bold pull-left">
                   Ihiji
