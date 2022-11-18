@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Erin Bleiweiss",
-    "label": "Software Engineer II at Rapid7",
+    "label": "Security Research Engineer at runZero",
     "image": "",
     "email": "erinbleiweiss@gmail.com",
     "phone": "",
@@ -27,10 +27,20 @@
   },
   "work": [
     {
+      "company": "runZero",
+      "position": "Security Research Engineer",
+      "startDate": "2022-06-29",
+      "endDate": "",
+      "highlights": [],
+      "summary": "I'm currently on the research team at [runZero](https://www.runzero.com/), helping to improve asset fingerprinting across our network discovery product.",
+      "url": "https://www.linkedin.com/company/runzero/",
+      "location": "Remote (Austin, Texas)"
+    },
+    {
       "company": "Rapid7",
       "position": "Software Engineer II",
       "startDate": "2019-02-28",
-      "endDate": "",
+      "endDate": "2022-06-17",
       "highlights": [],
       "summary": "",
       "url": "https://www.linkedin.com/company/rapid7/",
@@ -42,7 +52,7 @@
       "startDate": "2018-07-31",
       "endDate": "2019-02-28",
       "highlights": [],
-      "summary": "At [Rapid7](https://www.rapid7.com/), I'm a member of the offensive security engineering team, working on projects that benefit the security community. I helped to prototype and launch [AttackerKB](https://attackerkb.com/topics/), a community-driven vulnerability and threat intelligence platform. I've also made several [contributions to Metasploit Framework](https://github.com/rapid7/metasploit-framework/pulls?q=is%3Apr+author%3Aebleiweiss-r7), primarily adding support for an enhanced data service and REST API. I'm a [regular contributor](https://www.rapid7.com/blog/author/erin/) to the Rapid7 blog, authoring weekly wrap-up posts that highlight new features in Metasploit Framework. Finally, I am responsible for cloud infrastructure, deployment, and web development for the annual [Metasploit community CTF](https://www.rapid7.com/blog/post/2021/12/06/congrats-to-the-winners-of-the-2021-metasploit-community-ctf/), a [security competition](https://ctfd.io/whats-a-ctf/) which typically sees over 1,000 active users.",
+      "summary": "At [Rapid7](https://www.rapid7.com/), I was a member of the offensive security engineering team, working on projects that benefitted the security community. I helped to prototype and launch [AttackerKB](https://attackerkb.com/topics/), a community-driven vulnerability and threat intelligence platform. I also made several [contributions to Metasploit Framework](https://github.com/rapid7/metasploit-framework/pulls?q=is%3Apr+author%3Aebleiweiss-r7), primarily adding support for an enhanced data service and REST API. I was a [regular contributor](https://www.rapid7.com/blog/author/erin/) to the Rapid7 blog, authoring weekly wrap-up posts that highlight new features in Metasploit Framework. Finally, I was responsible for cloud infrastructure, deployment, and web development for the annual [Metasploit community CTF](https://www.rapid7.com/blog/post/2021/12/06/congrats-to-the-winners-of-the-2021-metasploit-community-ctf/), a [security competition](https://ctfd.io/whats-a-ctf/) which typically sees over 1,000 active users.",
       "url": "https://www.linkedin.com/company/rapid7/",
       "location": "Austin, Texas"
     },
