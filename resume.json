@@ -19,6 +19,16 @@
         "url": "https://github.com/erinbleiweiss/"
       },
       {
+        "network": "Twitter",
+        "username": "erinbleiweiss",
+        "url": "https://twitter.com/erinbleiweiss"
+      },
+      {
+        "network": "Mastodon",
+        "username": "@erin@hachyderm.io",
+        "url": "https://hachyderm.io/@erin"
+      },
+      {
         "network": "LinkedIn",
         "username": "erinbleiweiss",
         "url": "https://www.linkedin.com/in/erinbleiweiss/"
