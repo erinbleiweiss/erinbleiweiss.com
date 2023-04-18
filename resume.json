@@ -19,6 +19,11 @@
         "url": "https://github.com/erinbleiweiss/"
       },
       {
+        "network": "LinkedIn",
+        "username": "erinbleiweiss",
+        "url": "https://www.linkedin.com/in/erinbleiweiss/"
+      },
+      {
         "network": "Twitter",
         "username": "erinbleiweiss",
         "url": "https://twitter.com/erinbleiweiss"
@@ -27,11 +32,6 @@
         "network": "Mastodon",
         "username": "@erin@hachyderm.io",
         "url": "https://hachyderm.io/@erin"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "erinbleiweiss",
-        "url": "https://www.linkedin.com/in/erinbleiweiss/"
       }
     ]
   },
@@ -40,9 +40,9 @@
       "company": "runZero",
       "position": "Security Research Engineer",
       "startDate": "2022-06-29",
-      "endDate": "",
+      "endDate": "2023-04-14",
       "highlights": [],
-      "summary": "I'm currently on the research team at [runZero](https://www.runzero.com/), helping to improve asset fingerprinting across our network discovery product.",
+      "summary": "I was on the research team at [runZero](https://www.runzero.com/), helping to improve asset fingerprinting across the network discovery product. I handled data improvement submissions from customers, adding support for new device and software detection, as well as implementing new protocols. I also collaborated with the customer support team to answer technical questions from users and track bug reports and feature requests.",
       "url": "https://www.linkedin.com/company/runzero/",
       "location": "Remote (Austin, Texas)"
     },

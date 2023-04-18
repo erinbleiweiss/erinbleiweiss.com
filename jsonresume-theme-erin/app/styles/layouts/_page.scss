@@ -6,11 +6,17 @@ blockquote {
   margin-top: 80px;
   margin-bottom: 15px;
   background: #fff;
+  border-radius: $eb-border-radius;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);
 }
 
 .header-row {
   background-color: $header-gray;
   border-bottom: 12px solid $eb-green;
+  border-top-left-radius: $eb-border-radius;
+  border-top-right-radius: $eb-border-radius;
 }
 
 .header-row .contact {
