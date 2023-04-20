@@ -114,7 +114,7 @@
     {
       "name": "Frontend Web",
       "level": "",
-      "keywords": ["npm", "node", "yarn", "SASS", "Webpack", "jQuery", "Bootstrap", "Angular", "Python-Flask"]
+      "keywords": ["npm", "node", "yarn", "SASS", "Webpack", "jQuery", "Bootstrap", "Angular", "Typescript", "Vue", "Handlebars", "Flask"]
     },
     {
       "name": "Backend/Deployment",
