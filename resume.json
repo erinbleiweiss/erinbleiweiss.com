@@ -119,7 +119,7 @@
     {
       "name": "Backend/Deployment",
       "level": "",
-      "keywords": ["AWS", "Terraform", "Heroku", "Firebase", "Jenkins"]
+      "keywords": ["AWS", "Terraform", "Heroku", "Firebase", "Jenkins", "Docker"]
     }
   ],
   "interests": [],
