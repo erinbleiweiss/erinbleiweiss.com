@@ -7,7 +7,7 @@
     "email": "erinbleiweiss@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "My name is Erin, and I'm a software developer with a creative prowess, a knack for problem-solving, and an eye for design. I love working on cool things with cool people, and I always enjoy a challenge, whether that's architecting new web services or trying to solve a difficult anagram in pub trivia. When I'm not writing software, I'm probably messing around with hardware. I spend my time building and collecting mechanical keyboards, experimenting with IOT and home automation, and finding excuses to model and 3D print gadgets for around the house. Ask me about [what I'm typing on](./static/keyboard.jpg), my dog [Mayzie](./static/mayzie.jpg), or the current state of Longhorn football.",
+    "summary": "My name is Erin, and I'm a software developer with a creative prowess, a knack for problem-solving, and an eye for design. I love working on cool things with cool people, and I always enjoy a challenge, whether that's architecting new web services or trying to solve a difficult anagram in pub trivia. When I'm not writing software, I'm probably messing around with hardware. I spend my time building and collecting mechanical keyboards, experimenting with IoT and home automation, and finding excuses to model and 3D print gadgets for around the house. Ask me about [what I'm typing on](./static/keyboard.jpg), my dog [Mayzie](./static/mayzie.jpg), or the current state of Longhorn football.",
     "location": {
       "countryCode": "US",
       "address": "Austin, TX"
@@ -99,7 +99,7 @@
       "endDate": "2016-05-31",
       "score": "",
       "courses": [],
-      "summary": "I have a bachelor's degree from the [Plan II Honors Program](https://liberalarts.utexas.edu/plan2/about/index.php), an interdisciplinary program offered by UT's College of Liberal Arts. For me, this meant that I had the opportunity to take classes in a wide variety of subjects, while specializing in areas that interested me the most. I completed a minor in computer science through UT's [Elements of Computing Program](https://www.cs.utexas.edu/undergraduate-program/academics/elements-computing), as well as a a certificate from [Bridging Disciplines Program in Digital Arts and Media](https://ugs.utexas.edu/bdp/programs/dam). My liberal arts focus means I am well-versed in the humanities, although my passions lie with science and technology. At heart, I am a programmer who is pro-grammar."
+      "summary": "I have a bachelor's degree from the [Plan II Honors Program](https://liberalarts.utexas.edu/plan2/about/index.php), an interdisciplinary program offered by UT's College of Liberal Arts. For me, this meant that I had the opportunity to take classes in a wide variety of subjects, while specializing in areas that interested me the most. I completed a minor in computer science through UT's [Elements of Computing Program](https://www.cs.utexas.edu/undergraduate-program/academics/elements-computing), as well as a a certificate from the [Bridging Disciplines Program in Digital Arts and Media](https://ugs.utexas.edu/bdp/programs/dam). My liberal arts focus means I am well-versed in the humanities, although my passions lie with science and technology. At heart, I am a programmer who is pro-grammar."
     }
   ],
   "awards": [],
