@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Erin Bleiweiss",
-    "label": "Security Research Engineer at runZero",
+    "label": "Software Engineer at Jackbox Games",
     "image": "",
     "email": "erinbleiweiss@gmail.com",
     "phone": "",
@@ -36,6 +36,16 @@
     ]
   },
   "work": [
+    {
+      "company": "Jackbox Games",
+      "position": "Software Engineer III",
+      "startDate": "2023-08-28",
+      "endDate": "",
+      "highlights": [],
+      "summary": "I joined [Jackbox Games](https://www.jackboxgames.com/) as a Full-Stack Software Engineer in mid-2023.",
+      "url": "https://www.linkedin.com/company/jackbox-games/",
+      "location": "Remote (Austin, Texas)"
+    },
     {
       "company": "runZero",
       "position": "Security Research Engineer",

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0ff62f95-79e6-49c8-896f-b1e0b6abc237" name="erinbleiweiss.com" url="">
+        <fileTransfer rootFolder="/var/www/vhosts/erinbleiweiss.com" accessType="SFTP" host="108.84.181.186" port="22" sshConfigId="723d5518-3571-4b35-a028-1ec396a98846" sshConfig="erin@108.84.181.186:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
