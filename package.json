@@ -6,7 +6,6 @@
   },
   "dependencies": {
     "jsonresume-theme-erin": "file:jsonresume-theme-erin",
-    "jsonresume-theme-even": "^0.26.1",
     "resumed": "^6.1.0",
     "vite-plugin-static-copy": "^4.1.0"
   },
