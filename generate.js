@@ -15,6 +15,8 @@ async function build() {
         }
     });
 
+    fs.cp('CNAME', 'dist/CNAME')
+
     const resumeData = JSON.parse(await fs.readFile('./resume.json', 'utf-8'));
 
     // We manually call our Vue render function
