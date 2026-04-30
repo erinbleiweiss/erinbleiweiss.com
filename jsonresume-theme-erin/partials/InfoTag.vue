@@ -6,7 +6,7 @@
     <td>
       <h6 v-if="url"  class="info-text">
         <a :href="url" target="_blank">
-          {{removeProtocol(text)}} <i class="fa fa-external-link" aria-hidden="true"></i>
+          {{removeProtocol(text)}}
         </a>
       </h6>
       <h6 v-else class="info-text">{{text}}</h6>

@@ -28,7 +28,7 @@
         :profile="profile"
     />
     <InfoTag
-        text="Resume"
+        text="Resume (PDF)"
         icon="fas fa-file-alt fa-fw"
         url="./static/ErinBleiweissResume.pdf"
     />
