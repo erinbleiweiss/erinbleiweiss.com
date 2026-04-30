@@ -1,0 +1,6 @@
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+
+@function spacing($multiplier: 1) {
+  @return $pad-unit * $multiplier;
+}

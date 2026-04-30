@@ -1,0 +1,9 @@
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+@use '../utils/functions' as *;
+
+.references-container {
+  .fa {
+    @include font-size(3.5);
+  }
+}

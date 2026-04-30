@@ -1,87 +1,46 @@
-const
-  fs = require('fs'),
-  gravatar = require('gravatar'),
-  handlebars = require('handlebars'),
-  handlebarsWax = require('handlebars-wax'),
-  showdown = require('showdown'),
-  addressFormat = require('address-format'),
-  moment = require('moment'),
-  Swag = require('swag');
+import { createSSRApp } from 'vue';
+import { renderToString } from '@vue/server-renderer';
+import Resume from './Resume.vue';
+import fs from 'node:fs/promises';
+import * as sass from 'sass';
+import path from 'node:path';
 
-Swag.registerHelpers(handlebars);
+export async function render(resume) {
+      const app = createSSRApp(Resume, { resume });
+      const html = await renderToString(app);
 
-handlebars.registerHelper({
-  removeProtocol: function (url) {
-    return url.replace(/.*?:\/\//g, '');
-  },
-
-  concat: function () {
-    let res = '';
-
-    for (let arg in arguments) {
-      if (typeof arguments[arg] !== 'object') {
-        res += arguments[arg];
-      }
-    }
-
-    return res;
-  },
-
-  formatAddress: function (address, city, region, postalCode, countryCode) {
-    let addressList = addressFormat({
-      address: address,
-      city: city,
-      subdivision: region,
-      postalCode: postalCode,
-      countryCode: countryCode
-    });
-
-
-    return addressList.join('<br/>');
-  },
-
-  formatDate: function (date) {
-    return moment(date).format('YYYY');
-  }
-});
-
-handlebars.registerHelper('markdown', function(options) {
-  let converter = new showdown.Converter({
-    openLinksInNewWindow: true
-  });
-  let html = converter.makeHtml(options.fn(this));
-  return new handlebars.SafeString(html);
-});
-
-function render(resume) {
-  let dir = __dirname + '/public',
-    css = fs.readFileSync(dir + '/styles/main.css', 'utf-8'),
-    resumeTemplate = fs.readFileSync(dir + '/views/resume.hbs', 'utf-8');
-
-  let Handlebars = handlebarsWax(handlebars);
-
-  Handlebars.partials(dir + '/views/partials/**/*.{hbs,js}');
-  Handlebars.partials(dir + '/views/components/**/*.{hbs,js}');
-
-  resume.basics.capitalName = resume.basics.name.toUpperCase();
-  if(resume.basics && resume.basics.email) {
-    resume.basics.gravatar = gravatar.url(resume.basics.email, {
-      s: '200',
-      r: 'pg',
-      d: 'mm'
-    }, 'https');
-  }
-  if (resume.basics.image || resume.basics.gravatar) {
-    resume.basics.photo = resume.basics.image ? resume.basics.image : resume.basics.gravatar;
-    console.log(resume.basics.photo)
-  }
-
-  return Handlebars.compile(resumeTemplate)({
-    css: css,
-    resume: resume
-  });
+      return `
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+        <style>
+          ${await getStyles()}
+        </style>
+        <title>${resume.basics.name}</title>
+      </head>
+      <body>
+        <div id="app">${html}</div>
+      </body>
+    </html>
+  `;
 }
 
-module.exports = {
-  render: render
-};
+async function getStyles() {
+    try {
+        // Resolve the absolute path to your scss file
+        const scssPath = path.resolve(__dirname, 'styles/main.scss');
+
+        const result = sass.compile(scssPath, {
+            style: 'compressed', // 'expanded' for readable, 'compressed' for minified
+            loadPaths: [path.dirname(scssPath)] // Helps resolve @imports within the file
+        });
+
+        return result.css;
+    } catch (err) {
+        console.error('Sass Compilation Error:', err);
+        return '';
+    }
+}

@@ -1,0 +1,48 @@
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+@use '../utils/functions' as *;
+
+@media print {
+  body {
+    margin: 0;
+  }
+
+  a[href]:after {
+    content: none !important;
+  }
+
+  .header-row {
+    border-bottom: 5px solid $eb-green;
+
+    #photo {
+      display: none;
+    }
+    #text-header {
+      h1 {
+        font-size: 3em;
+      }
+
+      .contact {
+        display: none;
+      }
+    }
+  }
+
+  .resume-content {
+    padding-top: spacing(2) !important;
+  }
+
+  .container {
+    page-break-inside: avoid;
+  }
+
+  .work-container {
+    .item {
+      page-break-inside: avoid;
+    }
+  }
+
+  .fa-external-link {
+    display: none;
+  }
+}
