@@ -6,12 +6,12 @@
 
       <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
       <blockquote>
-        {{reference}}
+        {{reference.reference}}
       </blockquote>
 
-      <SectionHeader :name="publication.title" />
+      <SectionHeader :name="reference.title" />
 
-      <h5 v-if="publication.name" class="pull-right">
+      <h5 v-if="reference.name" class="pull-right">
         - {{reference.name}}
       </h5>
     </section>
