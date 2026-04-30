@@ -31,8 +31,7 @@ h6 {
 }
 
 h1 {
-  font-family: 'Patua One', cursive;
-  font-weight: 800;
+  @include patuaOne(800);
   letter-spacing: 1px;
   margin-bottom: spacing(1);
 }
