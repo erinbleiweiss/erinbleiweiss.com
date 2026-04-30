@@ -25,7 +25,9 @@ blockquote {
 }
 
 .header-row .contact {
-  word-spacing: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   font-size: 1.8em;
   color: #fff;
 }
