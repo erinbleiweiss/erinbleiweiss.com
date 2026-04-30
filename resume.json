@@ -119,12 +119,12 @@
     {
       "name": "Languages",
       "level": "",
-      "keywords": ["Python", "Go", "Ruby", "SQL", "Swift", "Java", "PHP", "HTML", "CSS", "JS"]
+      "keywords": ["Go", "Python", "Javascript", "Ruby", "SQL", "Swift", "Java", "PHP", "HTML", "CSS"]
     },
     {
       "name": "Frontend Web",
       "level": "",
-      "keywords": ["npm", "node", "yarn", "SASS", "Webpack", "jQuery", "Bootstrap", "Angular", "Typescript", "Vue", "Handlebars", "Flask"]
+      "keywords": ["Vue", "Typescript", "SASS", "Webpack", "npm", "node", "yarn",  "jQuery", "Bootstrap", "Angular", "Handlebars", "Flask"]
     },
     {
       "name": "Backend/Deployment",
